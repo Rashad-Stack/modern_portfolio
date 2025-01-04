@@ -14,10 +14,10 @@ export default function Home() {
       <div className="max-w-7xl w-full overflow-clip">
         <FloatingNav navItems={navItems} />
         <Hero />
+        <Experiences />
         <Grid />
         <RecentProject />
         <Clients />
-        <Experiences />
         <Approach />
         <Footer />
       </div>
